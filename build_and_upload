@@ -1,4 +1,5 @@
 #!/bin/bash
+npm run build
 cp static/CNAME docs
 cd docs
 git init

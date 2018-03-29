@@ -128,6 +128,7 @@ $py-blue-invert: findColorInvert($py-blue);
       color: $py-blue;
       position: relative;
       text-align: center;
+      margin-bottom: 10px;
       div {
         background: #ffffff;
         width: 100%;
@@ -147,6 +148,7 @@ $py-blue-invert: findColorInvert($py-blue);
       font-weight: 300;
       font-style: italic;
       padding: 10px 0;
+      max-width: 870px;
     }
   }
 
@@ -215,7 +217,6 @@ $py-blue-invert: findColorInvert($py-blue);
     .container {
       padding-bottom: 200px;
     }
-  
     .wrap {
       width: 256px;
     }
@@ -223,6 +224,7 @@ $py-blue-invert: findColorInvert($py-blue);
       color: $py-blue;
       position: relative;
       text-align: center;
+      padding-bottom: 30px; 
       div {
         background: $py-yellow;
         width: 100%;
@@ -242,6 +244,7 @@ $py-blue-invert: findColorInvert($py-blue);
       font-weight: 300;
       font-style: italic;
       padding: 10px 0;
+      max-width: 870px;
     }
   }  
 }
