@@ -11,11 +11,6 @@ export default new Router({
       path: '/',
       name: 'Landing',
       component: Landing
-    },
-    {
-      path: '/pyday/',
-      name: 'Landing',
-      component: Landing
     }
   ]
 })
