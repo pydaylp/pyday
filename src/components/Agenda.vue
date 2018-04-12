@@ -14,10 +14,13 @@
         Te invitamos a postularte como orador para nuestro próximo evento.
       </p>
       <p>
-        Para el evento buscamos que la comunidad comparta su conocimiento. Para eso, vamos a hacer una búsqueda pública de oradores. 
+        Para el evento buscamos que la comunidad comparta su conocimiento. Para eso, vamos a hacer una búsqueda pública de oradores.
       </p>
       <p>
         Vamos a elegir a 14 de los postulantes. Para participar de este proceso sólo tenés que completar este formulario.
+      </p>
+      <p>
+        Tenés tiempo hasta el 20 de Abril.
       </p>
       <p>
         <a target="_blank" class="button is-link" href="https://goo.gl/forms/PGKrDypfzHqT96ru2">Participá como orador</a>
