@@ -11,20 +11,44 @@
         </div>
       </div>
       <p>
-        Te invitamos a postularte como orador para nuestro próximo evento.
+        Próximamente estaremos publicando la charlas seleccionadas
       </p>
-      <p>
-        Para el evento buscamos que la comunidad comparta su conocimiento. Para eso, vamos a hacer una búsqueda pública de oradores.
-      </p>
-      <p>
-        Vamos a elegir a 14 de los postulantes. Para participar de este proceso sólo tenés que completar este formulario.
-      </p>
-      <p>
-        Tenés tiempo hasta el 20 de Abril.
-      </p>
-      <p>
-        <a target="_blank" class="button is-link" href="https://goo.gl/forms/PGKrDypfzHqT96ru2">Participá como orador</a>
-      </p>
+
+      <div class="columns is-centered">
+        <div class="column has-text-centered text credentials-divider">
+            <div>08:00 HS</div>
+            <div class="invert level-item">
+              ACREDITACIÓN
+            </div>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-5 talk-left">
+          Betiana Salaz Ruiz
+          <div class="description">
+            Cómo hablar por telefono y ser politicamente correcto
+          </div>
+        </div>
+        <div class="column time is-2">09:00HS</div>
+      </div>
+
+      <div class="columns">
+        <div class="column time is-offset-5 is-2 ">10:00HS</div>
+        <div class="column is-5  talk-right">
+          Andres Pardini
+          <div class="description">
+            Leer la documentacion y no morir en el intento
+          </div>
+        </div>
+      </div>
+
+      <div class="columns is-centered">
+        <div class="column has-text-centered text credentials-divider">
+            <div class="break">BREAK</div>
+        </div>
+      </div>
+
     </div>
   </div>
   <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">

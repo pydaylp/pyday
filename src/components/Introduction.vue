@@ -20,6 +20,7 @@
             <p>
               Tenemos como intención hacer un espacio en donde cualquier persona interesada pueda acercarse a <b>preguntar</b>, <b>aprender</b> y <b>experimentar</b> con estas herramientas
             </p>
+            <a target="_blank" href="https://goo.gl/forms/1JVW7QNO83QzBH683" class="button register is-link">Registrarse</a>
           </div>
         </div>
 

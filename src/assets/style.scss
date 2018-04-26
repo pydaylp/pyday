@@ -150,6 +150,70 @@ $py-blue-invert: findColorInvert($py-blue);
       padding: 10px 0;
       max-width: 870px;
     }
+
+    // grid
+    .credentials-divider {
+      margin: 40px 0;
+      position: relative;
+      background-color: white;
+      color: $py-blue;
+      height: 120px;
+      font-size: 35px;
+      border-radius: 200px;
+      padding: 0;
+      .invert {
+        font-size: 45px;
+        font-weight: bold;
+        font-style: italic;
+        color: $py-yellow;
+      }
+      .break{
+        color: $py-yellow;
+        font-weight: bold;
+        font-size: 180px;
+        line-height: 120px;
+        .text{
+
+        }
+        
+      }
+      .break-time {
+        line-height: 120px;
+      }
+    }
+
+    .talk-left,
+    .talk-right {
+      color: $py-yellow;
+      font-size: 20px;
+      font-weight: bold;
+      background-color: $py-blue;
+      height: 100px;
+      .description {
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+    }
+    .talk-left {
+      text-align: right;
+      border-radius: 200px 0 0 200px;
+    }
+    .talk-right {
+      text-align: left;
+      border-radius: 0 200px 200px 0;
+    }    
+    .time {
+      height: 50px;
+      padding: 0;
+      //width: 120px;
+      background: white;
+      font-size: 25px;
+      text-align: center;
+      line-height: 50px;
+    }
+
   }
 
   .footer {
@@ -174,6 +238,14 @@ $py-blue-invert: findColorInvert($py-blue);
   }
 
   .introduction {
+    .register {
+      background: $py-yellow;
+      color: $py-blue;
+      padding: 0 2rem;
+      border-radius: 30px;
+      font-weight: bold;
+      font-size: 16px;
+    }
     .container {
       padding: 50px 0 80px 0;
     }
