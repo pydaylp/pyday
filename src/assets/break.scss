@@ -1,0 +1,76 @@
+.credentials-wrap {
+  font-size: 1em;
+  @media screen and (max-width: 600px) {
+    font-size: .7em;
+  }
+  @media screen and (max-width: 430px) {
+    font-size: .6em;
+  }
+  @media screen and (max-width: 370px) {
+    font-size: .4em;
+  }
+}
+
+.credentials-divider {
+  padding: 0;
+  margin: 40px 0;
+  position: relative;
+  background-color: white;
+  color: $py-blue;
+  height: 4em;
+  line-height: 2em;
+  font-size: 2em;
+  border-radius: 200px;
+  padding: 0;
+  .invert {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    color: $py-yellow;
+  }
+  @media screen and (max-width: 768px) {
+    border-radius: 0;
+  }
+}
+
+
+.break-wrap {
+  font-size: 1.5em;
+  @media screen and (max-width: 600px) {
+    font-size: .9em;
+  }
+  @media screen and (max-width: 370px) {
+    font-size: .75em;
+  }
+}
+
+
+.break-divider {
+  padding: 0;
+  margin: 40px 0;
+  position: relative;
+  background-color: white;
+  color: $py-blue;
+  height: 4em;
+  line-height: 4em;
+  border-radius: 200px;
+  padding: 0;
+  .break-time {
+    font-size: 2.7em;
+    height: 2.7em;
+    line-height: 2.7em;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .break-text {
+    color: $py-yellow;
+    font-size: 6em;
+    font-weight: bold;
+    font-style: italic;
+  }
+  @media screen and (max-width: 768px) {
+    border-radius: 0;
+  }
+}
