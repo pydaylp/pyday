@@ -1,26 +1,22 @@
 <template>
 <div class="agenda yellow">
+
   <div class="section" id="agenda">
     <div class="container">
       <div class="wrap">
         <div class="title">
           <div></div>
           <span>
-            Oradores
+            Agenda
           </span>
         </div>
       </div>
-      <p>
-        Próximamente estaremos publicando la charlas seleccionadas
-      </p>
     </div>
   </div>
 
   <div class="section agenda-talks">
     <credentials :time="'08:00 HS'"></credentials>
     <tracks :tracks="tracks"></tracks>
-    <div style="position: sticky; top: 0">test</div>
-
     <template v-for="item in agenda">
       <talk-item v-if="item.placement !== 'break'" :talk="item" :key="item.time"></talk-item>
       <break v-if="item.placement === 'break'" :key="item.time" :time="item.time"></break>
@@ -53,7 +49,7 @@ export default {
     return {
       tracks: [
         {
-          name: 'Track 1',
+          name: 'Aula 5',
           active: true,
           agenda: [
             {
@@ -105,7 +101,7 @@ export default {
           ]
         },
         {
-          name: 'Track 2',
+          name: 'Aula 4',
           active: false,
           agenda: [
             {
