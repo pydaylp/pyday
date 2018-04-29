@@ -232,6 +232,11 @@ $py-blue-invert: findColorInvert($py-blue);
     .wrap {
       width: 256px;
     }
+    .button.is-link {
+      border-radius: 100px;
+      font-weight: bold;
+      padding: 0 2em;
+    }
     .title {
       color: $py-blue;
       position: relative;
@@ -257,6 +262,10 @@ $py-blue-invert: findColorInvert($py-blue);
       font-style: italic;
       padding: 10px 0;
       max-width: 870px;
+    }
+    .logo {
+      margin: 2em 0;
+      display: block;
     }
   }  
 }

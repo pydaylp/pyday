@@ -2,7 +2,7 @@
 <div class="agenda yellow">
 
   <div class="section" id="agenda">
-    <div class="container">
+    <div class="container is-paddingless">
       <div class="wrap">
         <div class="title">
           <div></div>
@@ -127,8 +127,8 @@ export default {
               time: '12:00'
             },
             {
-              author: '...',
-              description: '...',
+              author: 'A confirmar',
+              description: 'A confirmar',
               time: '13:00HS',
               placement: 'left'
             },
@@ -139,8 +139,8 @@ export default {
               placement: 'right'
             },
             {
-              author: '...',
-              description: '...',
+              author: 'A confirmar',
+              description: 'A confirmar',
               time: '15:00HS',
               placement: 'left'
             },

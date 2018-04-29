@@ -1,0 +1,38 @@
+.tracks {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+
+  .track {
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color: #eeeeee;
+    font-size: 1.5em;
+    color: white;
+    border-bottom: 1px solid #e0e0e0;
+    
+    
+    &.active {
+      color: $py-yellow;
+      background-color: $py-blue;
+      box-shadow: 0px 1px 2px 0px $py-blue;
+      border-bottom: 1px solid #161c25;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 1em;
+    }
+    @media screen and (min-width: 769px) {
+      &:first-child {
+        border-radius: 100px 0 0 100px;
+      }
+      &:last-child {
+        border-radius: 0 100px 100px 0;
+      }
+    }
+  }
+}

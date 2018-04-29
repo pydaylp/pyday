@@ -9,6 +9,27 @@
         </span>
       </div>
     </div>
+
+    <div>
+      <div class="columns is-desktop">
+        <div class="column">
+          <a class="logo" target="_blank" href="https://ubiome.com/">
+            <img src="@/assets/logo/ubiome.png" alt="ubiome">
+          </a>
+        </div>
+        <div class="column">
+          <a class="logo" target="_blank" href="https://moni.com.ar/">
+            <img src="@/assets/logo/moni.png" alt="moni">
+          </a>
+        </div>
+        <div class="column">
+          <a class="logo" target="_blank" href="https://dte.abc.gob.ar/dte.html">
+            <img src="@/assets/logo/dte.png" alt="dte">
+          </a>
+        </div>
+      </div>
+    </div>
+
     <p>
       Participar como sponsor en un PyDay permite dar difusión a la marca de la empresa en un ámbito de programadores. Al desarrollarse en el ámbito de una facultad de informática, esto le da visibilidad en un ámbito de futuros profesionales y estudiantes avanzados que buscan trabajo.
     </p>

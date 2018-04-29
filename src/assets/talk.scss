@@ -1,0 +1,68 @@
+$talk-size: 8rem;
+
+.talk-wrap {
+  margin-top: 0;
+  margin-bottom: 0;
+  @media screen and (max-width: 510px) {
+    font-size: 0.8em;
+  }
+}
+
+.talk-left {
+  text-align: right;
+  padding-left: 1em;  
+  border-radius: 200px 0 0 200px;
+}
+
+.talk-right {
+  text-align: left;
+  padding-right: 1em;
+  border-radius: 0 200px 200px 0;
+}
+
+.talk-left,
+.talk-right {
+  color: $py-yellow;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: $py-blue;
+  height: $talk-size;
+
+  .description {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.2em;
+  }
+
+  @media screen and (max-width: 768px) {
+    text-align: left;
+    border-radius: 0;
+    margin-bottom: 1em;
+  }
+}
+
+.time {
+  height: $talk-size / 2;
+  line-height: $talk-size / 2;
+  padding: 0;
+  background: white;
+  font-size: 1.5em;
+  text-align: center;
+  @media screen and (max-width: 768px) {
+    order: 2;
+  }
+  @media screen and (max-width: 400px) {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .agenda-talks {
+    padding: 0.75rem;
+  }
+  .talk-left,
+  .talk-right {
+    padding: 0.75em;
+  }
+}
