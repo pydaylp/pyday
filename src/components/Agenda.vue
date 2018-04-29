@@ -18,9 +18,13 @@
 
   <div class="section agenda-talks">
     <credentials :time="'08:00 HS'"></credentials>
-    <talk-item v-for="talk in agenda" :talk="talk" :key="talk.time"></talk-item>
-    <break></break>
-    <talk-item v-for="talk in agenda" :talk="talk" :key="talk.time"></talk-item>
+    <tracks :tracks="tracks"></tracks>
+    <div style="position: sticky; top: 0">test</div>
+
+    <template v-for="item in agenda">
+      <talk-item v-if="item.placement !== 'break'" :talk="item" :key="item.time"></talk-item>
+      <break v-if="item.placement === 'break'" :key="item.time" :time="item.time"></break>
+    </template>
   </div>
 
   <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">
@@ -30,36 +34,127 @@
 <script>
 import TalkItem from './TalkItem.vue'
 import Break from './Break.vue'
+import Tracks from './Tracks.vue'
 import Credentials from './Credentials.vue'
 
 export default {
   name: 'Agenda',
+  computed: {
+    agenda: function () {
+      for (let index = 0; index < this.tracks.length; index++) {
+        const element = this.tracks[index]
+        if (element.active) {
+          return element.agenda
+        }
+      }
+    }
+  },
   data () {
     return {
-      agenda: [
+      tracks: [
         {
-          author: 'Betiana Salaz Ruiz',
-          description: 'Cómo hablar por telefono y ser politicamente correcto',
-          time: '09:00HS',
-          placement: 'left'
+          name: 'Track 1',
+          active: true,
+          agenda: [
+            {
+              author: 'Andrés Delfino',
+              description: '__init__: Introducción a la programación con Python!',
+              time: '09:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Emiliano Dalla Verde Marcozzi',
+              description: '¿Cómo hacer debug de tus programas en Python?',
+              time: '10:00HS',
+              placement: 'right'
+            },
+            {
+              author: 'Geronimo Afonso',
+              description: 'Desarrollando y desplegando aplicaciones Python con Docker',
+              time: '11:00HS',
+              placement: 'left'
+            },
+            {
+              placement: 'break',
+              time: '12:00'
+            },
+            {
+              author: 'Nicolas Demarchi',
+              description: '¡Me están espiando! ¿Cómo saber con Python si el imperialismo te persigue o te pasaste de Focusyn?',
+              time: '13:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Hernan Lozano',
+              description: 'Una config para configurarlos a todos',
+              time: '14:00HS',
+              placement: 'right'
+            },
+            {
+              author: 'Facundo Batista',
+              description: 'Como los logs me salvaron el alma',
+              time: '15:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Matias Pereira',
+              description: 'Objetos, patrones y lambdas: All in one',
+              time: '16:00HS',
+              placement: 'right'
+            }
+          ]
         },
         {
-          author: 'Andres Pardini',
-          description: 'Leer la documentacion y no morir en el intento',
-          time: '10:00HS',
-          placement: 'right'
-        },
-        {
-          author: 'Betiana Salaz Ruiz',
-          description: 'Cómo hablar por telefono y ser politicamente correcto',
-          time: '09:00HS',
-          placement: 'left'
-        },
-        {
-          author: 'Andres Pardini',
-          description: 'Leer la documentacion y no morir en el intento',
-          time: '10:00HS',
-          placement: 'right'
+          name: 'Track 2',
+          active: false,
+          agenda: [
+            {
+              author: 'Felipe Morales',
+              description: 'pyscada: Integración con desarrollo in company',
+              time: '09:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'María Emilia Charnelli',
+              description: 'Sistemas Recomendadores en Python',
+              time: '10:00HS',
+              placement: 'right'
+            },
+            {
+              author: 'Pablo Soligo',
+              description: 'Desarrollo de un segmento terreno satelital de próxima generación con python',
+              time: '11:00HS',
+              placement: 'left'
+            },
+            {
+              placement: 'break',
+              time: '12:00'
+            },
+            {
+              author: '...',
+              description: '...',
+              time: '13:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Juan Carniglia',
+              description: 'Video Analytics events processing platform',
+              time: '14:00HS',
+              placement: 'right'
+            },
+            {
+              author: '...',
+              description: '...',
+              time: '15:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Alejandro Fanjul',
+              description: 'Usando Python para asistir al Ethical Hacker',
+              time: '16:00HS',
+              placement: 'right'
+            }
+          ]
         }
       ]
     }
@@ -67,7 +162,8 @@ export default {
   components: {
     'talk-item': TalkItem,
     'break': Break,
-    'credentials': Credentials
+    'credentials': Credentials,
+    'tracks': Tracks
   }
 }
 </script>
