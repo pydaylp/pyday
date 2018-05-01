@@ -139,8 +139,8 @@ export default {
               placement: 'right'
             },
             {
-              author: 'A confirmar',
-              description: 'A confirmar',
+              author: 'Julio Castro',
+              description: 'Blockchain zero administration with python',
               time: '15:00HS',
               placement: 'left'
             },

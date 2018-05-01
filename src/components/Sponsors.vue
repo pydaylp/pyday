@@ -27,19 +27,13 @@
             <img src="@/assets/logo/dte.png" alt="dte">
           </a>
         </div>
+        <div class="column">
+          <a class="logo" target="_blank" href="https://www.tecnom.com.ar/">
+            <img src="@/assets/logo/tecnom.jpg" alt="tecnom">
+          </a>
+        </div>
       </div>
     </div>
-
-    <p>
-      Participar como sponsor en un PyDay permite dar difusión a la marca de la empresa en un ámbito de programadores. Al desarrollarse en el ámbito de una facultad de informática, esto le da visibilidad en un ámbito de futuros profesionales y estudiantes avanzados que buscan trabajo.
-    </p>
-    <p>
-      El PyDay es un día de múltiples conferencias, entrenamientos, reuniones, charlas y cursos relacionados con el lenguaje y tecnologías.
-    </p>
-    <p>
-      La participación en el evento les permitirá conocer potenciales talentos y contarnos acerca de los beneficios y oportunidades de trabajo que tienen en la actualidad.
-    </p>
-    <a class="button is-link" target="_blank" href="https://goo.gl/forms/jzuShXhoN8QQy4cx1">Participá como sponsor</a>
 
   </div>
 </div>
