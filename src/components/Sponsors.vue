@@ -23,6 +23,11 @@
           </a>
         </div>
         <div class="column">
+          <a class="logo" target="_blank" href="https://www.devsar.com">
+            <img src="@/assets/logo/devsar.svg" alt="devsar">
+          </a>
+        </div>
+        <div class="column">
           <a class="logo" target="_blank" href="https://dte.abc.gob.ar/dte.html">
             <img src="@/assets/logo/dte.png" alt="dte">
           </a>

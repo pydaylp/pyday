@@ -127,8 +127,8 @@ export default {
               time: '12:00'
             },
             {
-              author: 'A confirmar',
-              description: 'A confirmar',
+              author: 'Fernan Nestier',
+              description: 'Procesos asincrónicos con python/celery',
               time: '13:00HS',
               placement: 'left'
             },
@@ -149,6 +149,52 @@ export default {
               description: 'Usando Python para asistir al Ethical Hacker',
               time: '16:00HS',
               placement: 'right'
+            }
+          ]
+        },
+        {
+          name: 'Aula 7',
+          active: false,
+          agenda: [
+            {
+              author: 'Fernando Das Neves',
+              description: 'A confirmar',
+              time: '09:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Felipe Morales',
+              description: 'El desafío de enseñar Python a nivel universitario',
+              time: '10:00HS',
+              placement: 'right'
+            },
+            {
+              author: 'Rafael Villalba',
+              description: 'Jugando con Python y el robot Cozmo',
+              time: '11:00HS',
+              placement: 'left'
+            },
+            {
+              placement: 'break',
+              time: '12:00'
+            },
+            {
+              author: 'A confirmar',
+              description: 'A confirmar',
+              time: '13:00HS',
+              placement: 'left'
+            },
+            {
+              author: 'Martín Alderete',
+              description: 'Comunicando partes con ZMQ',
+              time: '14:00HS',
+              placement: 'right'
+            },
+            {
+              author: 'Cristian Steib y Gaspar Dukart',
+              description: 'Aplicación web con Python y Django',
+              time: '15:00HS',
+              placement: 'left'
             }
           ]
         }
