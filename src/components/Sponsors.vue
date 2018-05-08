@@ -37,6 +37,11 @@
             <img src="@/assets/logo/tecnom.jpg" alt="tecnom">
           </a>
         </div>
+        <div class="column">
+          <a class="logo" target="_blank" href="https://ac.python.org.ar/">
+            <img src="@/assets/logo/logo-pyar.png" alt="Asociaci&oacute;n Civil Python Argentina">
+          </a>
+        </div>
       </div>
     </div>
 
