@@ -5,11 +5,12 @@
     <nav class="navbar is-dark">
       <div class="navbar-menu is-active">
         <div class="navbar-end">
-          <a href="#introduction" class="navbar-item">¿Qué es un PyDay?</a>
-          <a href="#agenda" class="navbar-item">Oradores</a>
+          <router-link class="navbar-item" to="/#introduction">¿Qué es un PyDay?</router-link>
+          <router-link class="navbar-item" to="/#agenda">Oradores</router-link>
           <a target="_blank" href="https://goo.gl/maps/8XqM3L6yast" class="navbar-item">Lugar</a>
-          <a href="#sponsors" class="navbar-item">Sponsors</a>
+          <router-link class="navbar-item" to="/#sponsors">Sponsors</router-link>
           <a href="mailto:pydaylaplata@gmail.com" class="navbar-item">Contacto</a>
+          <router-link class="navbar-item" :to="{name:'coc'}">Código de conducta</router-link>
           <a target="_blank" href="https://goo.gl/forms/1JVW7QNO83QzBH683" class="navbar-item register">Registrarse</a>
         </div>
       </div>

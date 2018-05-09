@@ -21,6 +21,9 @@
       <talk-item v-if="item.placement !== 'break'" :talk="item" :key="item.time"></talk-item>
       <break v-if="item.placement === 'break'" :key="item.time" :time="item.time"></break>
     </template>
+    <p class="coc-wrap">
+      Durante el evento les pedimos a todos que respeten nuestro <router-link class="coc-link" :to="{name:'coc'}">código de conducta</router-link>
+    </p>
   </div>
 
   <img class="lower-wave" src="@/assets/agenda-lower-wave.svg">
