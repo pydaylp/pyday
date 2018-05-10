@@ -62,8 +62,8 @@ export default {
               placement: 'left'
             },
             {
-              author: 'Emiliano Dalla Verde Marcozzi',
-              description: '¿Cómo hacer debug de tus programas en Python?',
+              author: 'Nicolas Demarchi',
+              description: '¡Me están espiando! ¿Cómo saber con Python si el imperialismo te persigue o te pasaste de Focusyn?',
               time: '10:00HS',
               placement: 'right'
             },
@@ -78,8 +78,8 @@ export default {
               time: '12:00'
             },
             {
-              author: 'Nicolas Demarchi',
-              description: '¡Me están espiando! ¿Cómo saber con Python si el imperialismo te persigue o te pasaste de Focusyn?',
+              author: 'Mesa de la Diversidad',
+              description: 'Charlaremos sobre los diferentes aspectos relacionados con la diversidad',
               time: '13:00HS',
               placement: 'left'
             },
@@ -161,7 +161,7 @@ export default {
           agenda: [
             {
               author: 'Fernando Das Neves',
-              description: 'A confirmar',
+              description: 'Experiencia usando machine learning en producción con Python',
               time: '09:00HS',
               placement: 'left'
             },
